@@ -6,3 +6,132 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  color: #1A1A1A;
+}
+
+.nav-bar {
+padding: 15px;
+
+}
+
+.logo {
+
+  display: inline-block;
+  padding-left: 10px;
+
+  }
+
+.nav-menu {
+   display: inline-block;
+   position: absolute;
+   left: 740px;
+
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+a {
+   font-size: 22px;
+   text-decoration: none;
+   color: #1A1A1A;
+}
+
+header {
+  height: 530px;
+  padding-top: 200px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+}
+
+#white {
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 25px;
+  color: #00B172;
+}
+
+.what {
+  padding: 20px;
+margin-bottom: 64px;
+
+}
+.icon-box {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+  height: 60px;
+}
+.text-box {
+  padding: 0 40px;
+}
+
+.green-box {
+  background-color: #00B172;
+  padding: 40px 90px;
+  margin: 0 30px;
+  color: white;
+}
+
+.content-box {
+  display: inline-block;
+  width: 50%
+}
+
+.col-1 {
+  margin-right: 10%;
+
+}
+
+
+.col-mid {
+  display: inline-block;
+
+}
+
+
+.col-2 {
+  display: inline-block;
+
+  margin-left: 100px;
+
+}
+
+.title2 {
+  text-align: left;
+  color: white;
+}
+
+#white-logo {
+
+padding-bottom: 175px;
+
+}
+
+#app {
+  padding-top: 50px;
+}
