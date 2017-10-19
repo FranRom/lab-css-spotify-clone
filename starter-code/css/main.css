@@ -17,11 +17,19 @@ padding: 15px;
 }
 
 .logo {
-
   display: inline-block;
   padding-left: 10px;
-
   }
+
+.logo:hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  30%{ padding-left: 0px; }
+  75%{ padding-left: 30px; }
+}
 
 .nav-menu {
    display: inline-block;
@@ -134,4 +142,12 @@ padding-bottom: 175px;
 
 #app {
   padding-top: 50px;
+}
+
+.title2 > span {
+  border-bottom: 3px solid #fff;
+}
+
+h2 > span {
+  border-bottom: 3px solid #00B172;
 }
